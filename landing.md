@@ -31,4 +31,5 @@ In each section, you will be walked through the different parts of the topic for
 #### Contact
 Erik Benson, CSE 212 Tutor.
 ben18006@byui.edu
+
 Also feel free to reach out via InScribe, which can be found via the 'Tutoring Resources' in your class module.
