@@ -9,14 +9,23 @@ In each section, you will be walked through the different parts of the topic for
 
 #### Links:
 [Week 1: List Comprehension](list_comprehension.md)
+
 [Week 2: Big O Notation (Incomplete)](big_o_notation.md)
+
 [Week 3:]
+
 [Week 4:]
+
 [Week 5:]
+
 [Week 6:]
+
 [Week 7:]
+
 [Week 8:]
+
 [Week 9:]
+
 [Week 10: Markdown]
 
 #### Contact
