@@ -12,21 +12,21 @@ In each section, you will be walked through the different parts of the topic for
 
 [Week 2: Big O Notation (Incomplete)](big_o_notation.md)
 
-[Week 3:]
+[Week 3: Stacks (Incomplete)](stacks.md)
 
-[Week 4:]
+[Week 4: Queues (Incomplete)]
 
-[Week 5:]
+[Week 5: Sets (Incomplete)]
 
-[Week 6:]
+[Week 6: Maps (Incomplete)]
 
-[Week 7:]
+[Week 7: Linked Lists (Incomplete)]
 
-[Week 8:]
+[Week 8: Recursion (Incomplete)]
 
-[Week 9:]
+[Week 9: Trees (Incomplete)]
 
-[Week 10: Markdown]
+[Week 10: Markdown (Incomplete)]
 
 #### Contact
 Erik Benson, CSE 212 Tutor.
