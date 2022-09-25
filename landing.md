@@ -10,9 +10,9 @@ In each section, you will be walked through the different parts of the topic for
 #### Links:
 [Week 1: List Comprehension](list_comprehension.md)
 
-[Week 2: Big O Notation (Incomplete)](big_o_notation.md)
+[Week 2: Big O Notation](big_o_notation.md)
 
-[Week 3: Stacks (Incomplete)](stacks.md)
+[Week 3: Stacks (Incomplete)]
 
 [Week 4: Queues (Incomplete)]
 
