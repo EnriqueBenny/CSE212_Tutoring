@@ -12,7 +12,7 @@ In each section, you will be walked through the different parts of the topic for
 
 [Week 2: Big O Notation](big_o_notation.md)
 
-[Week 3: Stacks (Incomplete)](stacks.md)
+[Week 3: Stacks](stacks.md)
 
 [Week 4: Queues (Incomplete)](queues.md)
 
