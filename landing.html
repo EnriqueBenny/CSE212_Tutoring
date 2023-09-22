@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.215">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>landing</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="landing_files/libs/clipboard/clipboard.min.js"></script>
+<script src="landing_files/libs/quarto-html/quarto.js"></script>
+<script src="landing_files/libs/quarto-html/popper.min.js"></script>
+<script src="landing_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="landing_files/libs/quarto-html/anchor.min.js"></script>
+<link href="landing_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="landing_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="landing_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="landing_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="landing_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+
+
+</head>
+
+<body class="fullcontent">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+
+<main class="content" id="quarto-document-content">
+
+
+
+<section id="programming-with-data-structures-cse-212" class="level1">
+<h1>Programming with Data Structures (CSE 212)</h1>
+<section id="intro" class="level4">
+<h4 class="anchored" data-anchor-id="intro">Intro</h4>
+<p>Welcome to CSE 212, this online resource will be here to give you additional practice and tips throughout the semester. As the weeks pass, this resource will be updated with new materials.</p>
+<p>In each section, you will be walked through the different parts of the topic for the week. If you’re already feeling comfortable with what is going on, feel free to skip down to the example or the challenge. For both the example and the challenge, have VS Code open and ready. You’ll be copying and pasting the code into your program to work with it, rather than downloading the entire repository.</p>
+<blockquote class="blockquote">
+<p>If there isn’t an included topic that you would like to see, please reach out (contact information below). I have currently elected to only include the sections I feel people need the most help with for now.</p>
+</blockquote>
+</section>
+<section id="links" class="level4">
+<h4 class="anchored" data-anchor-id="links">Links:</h4>
+<p><a href="list_comprehension.md">Week 1: List Comprehension</a></p>
+<p><a href="big_o_notation.md">Week 2: Big O Notation</a></p>
+<p><a href="stacks.md">Week 3: Stacks</a></p>
+<p><a href="queues.md">Week 4: Queues (Incomplete)</a></p>
+<p><a href="test.md">Week 4: Testing (Incomplete)</a></p>
+<p>[Week 5: Sets (Incomplete)]</p>
+<p>[Week 6: Maps (Incomplete)]</p>
+<p>[Week 7: Linked Lists (Incomplete)]</p>
+<p>[Week 8: Recursion (Incomplete)]</p>
+<p>[Week 9: Trees (Incomplete)]</p>
+<p>[Week 10: Markdown (Incomplete)]</p>
+</section>
+<section id="contact" class="level4">
+<h4 class="anchored" data-anchor-id="contact">Contact</h4>
+<p>Erik Benson, CSE 212 Tutor. ben18006@byui.edu</p>
+<p>Also feel free to reach out via InScribe, which can be found via the ‘Tutoring Resources’ in your class module.</p>
+</section>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
